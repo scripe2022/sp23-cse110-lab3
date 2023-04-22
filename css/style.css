@@ -7,6 +7,7 @@ body {
     font-family: "Ubuntu", sans-serif;
 }
 
+/* header */
 .header, .footer {
     padding: 10px 20%;
     display: flex;
@@ -17,12 +18,14 @@ body {
     font-size: 1.25em;
 }
 
+/* right column sticky */
 .column.is-sticky {
     position: sticky;
     top: 0px;
     align-self: flex-start;
 }
 
+/* margin between navigate */
 .navigate:first-child {
     margin-left: 0;
 }
@@ -63,6 +66,7 @@ a:hover {
     text-align: justify;
 }
 
+/* hide navigates in header */
 @media (max-width: 767px) {
     .header, .footer, .content {
         padding-left: 10px;
@@ -74,6 +78,9 @@ a:hover {
     .navigate:first-child {
         display: flex;
     }
+    #image-grid {
+        border: solid white;
+    }
 }
 
 @media (min-width: 768px) {
@@ -82,7 +89,13 @@ a:hover {
         justify-content: space-between;
     }
     .content>.column {
-        width: 47%;
+        width: 50%;
+    }
+    .column:first-child {
+        padding-right: 3%;
+    }
+    .column:last-child {
+        padding-left: 3%;
     }
 }
 
@@ -133,7 +146,8 @@ img.rounded-corner {
 }
 
 .footer {
-    height: 30px;
+    height: 0.5in;
+    border-top: 10px;
 }
 
 h1[name="category"] {

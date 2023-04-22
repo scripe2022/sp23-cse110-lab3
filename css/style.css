@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+* {
+    color: #FFFFFF;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.header, .footer {
+    padding: 10px 20%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #363636;
+    /* color: #FFFFFF; */
+    /* font-family: "Ubuntu", sans-serif; */
+    font-size: 1.25em;
+}
+
+.navigate:first-child {
+    margin-left: 0;
+}
+.navigate:last-child {
+    margin-right: 0;
+}
+.navigate {
+    margin: 0px 20px;
+}
+
+.navigate a {
+    /* color: #FFFFFF; */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0066CC;
+    text-decoration: none;
+}
+
+.header-left, .footer-left, .header-right, .footer-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    height: 30px;
+}

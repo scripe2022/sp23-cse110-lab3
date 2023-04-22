@@ -17,6 +17,12 @@ body {
     font-size: 1.25em;
 }
 
+.column.is-sticky {
+    position: sticky;
+    top: 0px;
+    align-self: flex-start;
+}
+
 .navigate:first-child {
     margin-left: 0;
 }

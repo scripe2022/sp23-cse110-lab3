@@ -1,2 +1,2 @@
-# Lab 2
-[https://scripe2022.github.io/Lab2_Starter/](https://scripe2022.github.io/Lab2_Starter/)
+# Lab 3
+[https://scripe2022.github.io/sp23-cse110-lab3/](https://scripe2022.github.io/sp23-cse110-lab3/)
